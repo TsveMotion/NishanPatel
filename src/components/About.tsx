@@ -17,9 +17,20 @@ export default function About() {
               <h3 className="text-3xl md:text-4xl font-bold text-brand-blue-900 mb-8 leading-tight">
                 A dependable and enthusiastic student looking to grow.
               </h3>
-              <p className="text-slate-600 leading-relaxed text-lg mb-8">
-                {NISHAN_DATA.about}
-              </p>
+              <div className="text-slate-600 leading-relaxed text-lg mb-8 space-y-4">
+                {NISHAN_DATA.about.split('\n\n').map((para, i) => (
+                  <p key={i}>{para}</p>
+                ))}
+              </div>
+
+              {(NISHAN_DATA as any).additionalInfo && (
+                <div className="mt-8 pt-8 border-t border-slate-100">
+                  <h4 className="text-sm font-bold text-brand-blue uppercase tracking-widest mb-4">Speech & Drama</h4>
+                  <p className="text-slate-600 text-base leading-relaxed italic">
+                    {(NISHAN_DATA as any).additionalInfo}
+                  </p>
+                </div>
+              )}
               
               <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-slate-100">
                 <div className="space-y-1">

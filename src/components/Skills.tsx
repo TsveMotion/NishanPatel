@@ -43,33 +43,34 @@ export default function Skills() {
             className="w-full lg:w-2/3"
           >
             <div className="glass-card rounded-[2.5rem] p-8 md:p-12">
-              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-8">Skillsets</h4>
-              <div className="flex flex-wrap gap-3 md:gap-4">
-                {NISHAN_DATA.skills.map((skill, index) => (
-                  <motion.span
-                    key={skill}
-                    initial={{ opacity: 0, scale: 0.9 }}
-                    whileInView={{ opacity: 1, scale: 1 }}
+              <h4 className="text-xs font-bold text-slate-400 uppercase tracking-widest mb-8">Skillsets & Expertise</h4>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                {(NISHAN_DATA as any).skillsDetailed.map((skill: any, index: number) => (
+                  <motion.div
+                    key={skill.name}
+                    initial={{ opacity: 0, y: 10 }}
+                    whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.05 }}
-                    className="px-6 py-3 bg-blue-50 text-brand-blue text-sm font-bold rounded-full border border-blue-100 hover:bg-brand-blue hover:text-white transition-all cursor-default"
+                    className="p-6 rounded-2xl bg-blue-50/50 border border-blue-100 hover:border-brand-blue/30 transition-all group"
                   >
-                    {skill}
-                  </motion.span>
+                    <div className="flex items-center gap-3 mb-2">
+                       <CheckCircle2 size={18} className="text-brand-blue" />
+                       <h5 className="font-bold text-brand-blue-900 group-hover:text-brand-blue transition-colors">{skill.name}</h5>
+                    </div>
+                    <p className="text-slate-500 text-sm leading-relaxed font-medium">
+                      {skill.desc}
+                    </p>
+                  </motion.div>
                 ))}
               </div>
               
-              <div className="mt-16 grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-                  <span className="text-2xl mb-4 block">📈</span>
-                  <h5 className="font-bold text-brand-blue-900 mb-2">Growth Mindset</h5>
-                  <p className="text-slate-500 text-sm leading-relaxed">Constant desire to learn and improve in professional environments.</p>
-                </div>
-                <div className="p-6 rounded-2xl bg-slate-50 border border-slate-100">
-                  <span className="text-2xl mb-4 block">⌛</span>
-                  <h5 className="font-bold text-brand-blue-900 mb-2">Punctuality</h5>
-                  <p className="text-slate-500 text-sm leading-relaxed">Exceptional attendance record and consistent time management.</p>
-                </div>
+              <div className="mt-12 flex flex-wrap gap-3">
+                {NISHAN_DATA.skills.filter(s => !(NISHAN_DATA as any).skillsDetailed.some((sd: any) => sd.name === s)).map((skill, index) => (
+                  <span key={skill} className="px-4 py-2 bg-slate-100 text-slate-500 text-xs font-bold rounded-full border border-slate-200">
+                    {skill}
+                  </span>
+                ))}
               </div>
             </div>
           </motion.div>

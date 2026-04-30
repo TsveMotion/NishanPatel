@@ -1,8 +1,9 @@
 export const NISHAN_DATA = {
   name: "Nishan Patel",
   headline: "Hi, I’m Nishan Patel",
-  subheadline: "A dedicated and enthusiastic student with experience in pharmacy, volunteering, sport, and teamwork.",
-  about: "Nishan Patel is a dependable and enthusiastic 17-year-old who recently completed his GCSEs at Streetly Academy, achieving grades 5–7 across subjects including English, Maths, Combined Science, Spanish, Business Studies, and Geography. He maintained excellent attendance and earned 800 positive behaviour points. He is eager to gain work experience and develop his skills in a professional environment.",
+  subheadline: "Ambitious A-Level student focused on AI, Business, and Data-driven roles. Preparing for the future of technology.",
+  about: "I’m Nishan Patel, an ambitious A-Level student with a strong interest in AI, mathematics and business. I’m focused on building a foundation that prepares me for university or a competitive apprenticeship in AI, business, accounting or data-driven roles. I enjoy understanding how things work, breaking down problems logically and finding smarter ways to do things. I’m especially interested in how AI is transforming the way companies operate, and I want to be part of that future.\n\nIn sixth form, my subjects support the direction I’m heading. Mathematics strengthens my analytical thinking, logical reasoning and data skills. Business gives me insight into strategy, finance, marketing and how organisations operate. Together, they give me a strong foundation for future study and work in AI, business and data-driven roles.",
+  additionalInfo: "I spent several years doing Speech & Drama at Centerstage, where I developed confidence, public speaking ability and clear communication. This was recognised when I received a Rotary Award, typically given to young people who show leadership, community involvement and strong personal development. These experiences have made me comfortable presenting ideas, working with others and stepping into new challenges.",
   experience: [
     {
       role: "Pharmacy Assistant",
@@ -11,41 +12,61 @@ export const NISHAN_DATA = {
       description: [
         "Shadowed pharmacy assistants and the pharmacist.",
         "Checked deliveries and stored items correctly.",
-        "Helped process electronic prescriptions after dispensing.",
-        "Served customers by understanding what they needed and relaying information to pharmacy staff."
+        "Served customers by understanding what they needed and relaying information to pharmacy staff.",
+        "Helped process electronic prescriptions after dispensing."
+      ]
+    },
+    {
+      role: "Academy Goalkeeper",
+      company: "Walsall Football Club",
+      dates: "Pre-Sixth Form",
+      description: [
+        "Learned to stay calm under intense pressure and make fast, critical decisions.",
+        "Developed clear communication skills to coordinate a team effectively.",
+        "Maintained high levels of discipline and personal responsibility.",
+        "Balanced intensive training with academic commitments."
       ]
     }
   ],
   skills: [
-    "Teamwork",
+    "Analytical Thinking",
+    "AI & Technology Awareness",
+    "Business Understanding",
     "Communication",
-    "Time management",
-    "Problem solving",
-    "Customer service",
-    "IT skills",
-    "Reliability",
-    "Perseverance"
+    "Decision-Making",
+    "Leadership & Responsibility",
+    "Teamwork",
+    "Resilience & Discipline"
+  ],
+  skillsDetailed: [
+    { name: "Analytical Thinking", desc: "Breaking down complex problems logically and finding efficient solutions." },
+    { name: "AI & Technology Awareness", desc: "Understanding how AI impacts business and decision-making." },
+    { name: "Business Understanding", desc: "Knowledge of finance, strategy, marketing and organisational behaviour." },
+    { name: "Communication", desc: "Clear speaking, presenting and teamwork developed through Speech & Drama." },
+    { name: "Decision-Making", desc: "Experience making fast, high-pressure decisions as a goalkeeper." },
+    { name: "Leadership & Responsibility", desc: "Taking ownership, staying accountable and supporting others effectively." }
   ],
   sportsAndHobbies: {
-    content: "Nishan is active and committed outside of academics. He plays football as a goalkeeper for a local team, where he has developed teamwork, communication, perseverance, and time management skills. He also plays badminton and enjoys cycling, which help him stay focused, disciplined, and active.",
+    content: "Before sixth form, I played as a goalkeeper for Walsall Football Club. That experience taught me how to stay calm under pressure, make fast decisions, communicate clearly with a team and take responsibility. I also play badminton and occasionally go to the gym, which helps me build consistency, resilience and focus.",
     highlights: [
-      "Goalkeeper for a local football team",
+      "Goalkeeper for Walsall Football Club",
       "Football Coaches’ Player of the Season 2024/25",
-      "Badminton player",
-      "Cycling enthusiast"
+      "Competitive Badminton Player",
+      "Gym & Fitness Enthusiast"
     ]
   },
   certificates: [
+    "Rotary Junior Community Award",
+    "LAMDA Level 1 Award - Communication, Speaking (Distinction)",
     "Silver Music Medal - 2019",
-    "ABRSM Level 1 Award in Guitar Music Performance",
-    "LAMDA Level 1 Award in Communication, Speaking - Distinction",
-    "400m Swimming Award ASA - 2017",
-    "Rotary Junior Community Award - 2020",
+    "ABRSM Level 1 Award - Guitar Performance",
+    "400m Swimming Award ASA",
     "Bikeability Level 2 - 2020"
   ],
   volunteering: "Nishan volunteered as a Wellbeing Ambassador at school, supporting peers, encouraging a positive environment, and developing empathy and problem-solving skills.",
   contact: {
-    email: "nishan.patel@example.com", // Placeholder, will mention it's a placeholder
-    phone: "07xxx xxxxxx" // Placeholder
+    email: "nishanpatel761@gmail.com",
+    location: "Birmingham, UK",
+    phone: "07xxx xxxxxx"
   }
 };

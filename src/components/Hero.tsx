@@ -58,26 +58,26 @@ export default function Hero() {
         >
           <div className="glass-card rounded-[2.5rem] p-10 md:p-14 accent-border flex flex-col justify-center">
             <h2 className="text-xs font-bold text-brand-blue-900 uppercase tracking-widest mb-6 block">Welcome to my Portfolio</h2>
-            <p className="text-2xl md:text-4xl font-bold text-slate-800 leading-tight mb-8">
-              "A dedicated and enthusiastic 17-year-old student, eager to apply my skills in high-pace professional environments."
+            <p className="text-2xl md:text-3xl lg:text-4xl font-bold text-slate-800 leading-tight mb-8">
+              "Ambitious A-Level student exploring the intersection of AI, Mathematics, and Business to drive future innovation."
             </p>
             
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 pt-8 border-t border-slate-100">
               <div className="space-y-1">
-                <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Experience</span>
-                <span className="block text-lg font-bold text-brand-blue">Pharmacy</span>
+                <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">A-Level</span>
+                <span className="block text-lg font-bold text-brand-blue">Maths & Biz</span>
               </div>
               <div className="space-y-1">
-                <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Education</span>
-                <span className="block text-lg font-bold text-brand-blue">Streetly Acad.</span>
+                <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Foundation</span>
+                <span className="block text-lg font-bold text-brand-blue">AI Focused</span>
               </div>
               <div className="space-y-1">
-                <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Achievements</span>
-                <span className="block text-lg font-bold text-brand-blue">800+ Points</span>
+                <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Performance</span>
+                <span className="block text-lg font-bold text-brand-blue">Rotary Award</span>
               </div>
               <div className="space-y-1">
-                <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Sports</span>
-                <span className="block text-lg font-bold text-brand-blue">Goalkeeper</span>
+                <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Sport</span>
+                <span className="block text-lg font-bold text-brand-blue">Walsall FC</span>
               </div>
             </div>
           </div>

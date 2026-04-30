@@ -35,8 +35,8 @@ export default function Experience() {
               transition={{ delay: index * 0.1 }}
               className="glass-card rounded-[2rem] p-8 md:p-10 relative overflow-hidden group"
             >
-              <div className="absolute top-4 right-6 text-[10px] font-bold text-brand-orange bg-orange-50 px-3 py-1 rounded-full border border-orange-100 uppercase tracking-widest">
-                Active
+              <div className="absolute top-4 right-6 text-[10px] font-bold text-brand-blue bg-blue-50 px-3 py-1 rounded-full border border-blue-100 uppercase tracking-widest">
+                Professional Role
               </div>
               
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8 border-b border-slate-100 pb-8">

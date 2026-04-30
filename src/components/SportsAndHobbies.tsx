@@ -4,10 +4,10 @@ import { NISHAN_DATA } from '../constants';
 
 export default function SportsAndHobbies() {
   const highlights = [
-    { text: "Goalkeeper", sub: "Local Football Team", icon: <Users size={20} />, color: "bg-blue-800" },
+    { text: "Walsall FC", sub: "Academy Goalkeeper", icon: <Users size={20} />, color: "bg-blue-800" },
     { text: "Coaches' Player", sub: "Season 2024/25", icon: <Trophy size={20} />, color: "bg-orange-600" },
     { text: "Badminton", sub: "Competitive Player", icon: <Flame size={20} />, color: "bg-blue-800" },
-    { text: "Cycling", sub: "Active Enthusiast", icon: <Bike size={20} />, color: "bg-orange-600" },
+    { text: "Fitness", sub: "Resilience & Focus", icon: <Bike size={20} />, color: "bg-orange-600" },
   ];
 
   return (
