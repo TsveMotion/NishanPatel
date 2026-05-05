@@ -4,7 +4,7 @@ import { NISHAN_DATA } from '../constants';
 export default function About() {
   return (
     <section id="about" className="section-padding bg-brand-bg relative overflow-hidden">
-      <div className="container-custom px-6">
+      <div className="container-custom px-4 md:px-6">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

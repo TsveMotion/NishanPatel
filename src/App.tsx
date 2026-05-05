@@ -15,7 +15,7 @@ import Footer from './components/Footer';
 
 export default function App() {
   return (
-    <main className="antialiased selection:bg-brand-blue selection:text-white">
+    <main className="antialiased selection:bg-brand-blue selection:text-white overflow-x-hidden">
       <Navbar />
       <Hero />
       <About />

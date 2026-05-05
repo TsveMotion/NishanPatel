@@ -5,7 +5,7 @@ import { NISHAN_DATA } from '../constants';
 export default function Experience() {
   return (
     <section id="experience" className="section-padding bg-white relative">
-      <div className="container-custom px-6">
+      <div className="container-custom px-4 md:px-6">
         <div className="text-center mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
@@ -33,16 +33,16 @@ export default function Experience() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: index * 0.1 }}
-              className="glass-card rounded-[2rem] p-8 md:p-10 relative overflow-hidden group"
+              className="glass-card rounded-[1.5rem] md:rounded-[2rem] p-6 md:p-10 relative overflow-hidden group"
             >
-              <div className="absolute top-4 right-6 text-[10px] font-bold text-brand-blue bg-blue-50 px-3 py-1 rounded-full border border-blue-100 uppercase tracking-widest">
+              <div className="absolute top-2 right-4 md:top-4 md:right-6 text-[8px] md:text-[10px] font-bold text-brand-blue bg-blue-50 px-2 py-0.5 md:px-3 md:py-1 rounded-full border border-blue-100 uppercase tracking-widest">
                 Professional Role
               </div>
               
               <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8 border-b border-slate-100 pb-8">
                 <div className="space-y-2">
                   <div className="text-xs font-bold text-slate-400 uppercase tracking-widest">{item.dates}</div>
-                  <h4 className="text-2xl font-bold text-brand-blue-900">{item.role}</h4>
+                  <h4 className="text-xl md:text-2xl font-bold text-brand-blue-900">{item.role}</h4>
                   <div className="flex items-center gap-2 text-slate-500 font-bold italic text-sm">
                     <Briefcase size={16} />
                     {item.company}

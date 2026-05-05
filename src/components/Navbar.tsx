@@ -51,7 +51,7 @@ export default function Navbar() {
           className="flex items-center space-x-3"
         >
           <div className="w-8 h-8 bg-brand-blue rounded-lg flex items-center justify-center text-white font-bold">NP</div>
-          <span className="text-brand-blue-900 font-bold tracking-tight text-xl uppercase">Nishan Patel</span>
+          <span className="text-brand-blue-900 font-bold tracking-tight text-lg md:text-xl uppercase">Nishan Patel</span>
         </motion.a>
 
         {/* Desktop Links */}

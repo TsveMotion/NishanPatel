@@ -3,8 +3,8 @@ import { ArrowRight, Download } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center pt-24 overflow-hidden bg-brand-bg dot-grid">
-      <div className="container-custom grid md:grid-cols-12 gap-12 items-center relative z-10 px-6">
+    <section className="relative min-h-screen flex items-center pt-24 pb-12 overflow-hidden bg-brand-bg dot-grid">
+      <div className="container-custom flex flex-col md:grid md:grid-cols-12 gap-8 md:gap-12 items-center relative z-10 px-4 md:px-6">
         {/* Profile Card Sidebar Effect */}
         <motion.div
           initial={{ opacity: 0, x: -30 }}
@@ -12,7 +12,7 @@ export default function Hero() {
           transition={{ duration: 0.8 }}
           className="col-span-12 md:col-span-4"
         >
-          <div className="glass-card rounded-[2.5rem] p-8 flex flex-col items-center text-center space-y-6">
+          <div className="glass-card rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-8 flex flex-col items-center text-center space-y-6">
             <div className="relative">
               <div className="w-40 h-40 rounded-full border-4 border-white shadow-xl overflow-hidden flex items-center justify-center">
                 <img
@@ -26,7 +26,7 @@ export default function Hero() {
             </div>
             
             <div>
-              <h1 className="text-2xl md:text-3xl font-bold text-brand-blue-900 leading-tight">Hi, I'm Nishan Patel</h1>
+              <h1 className="text-xl md:text-3xl font-bold text-brand-blue-900 leading-tight">Hi, I'm Nishan Patel</h1>
               <p className="text-slate-500 text-[10px] md:text-xs mt-2 font-bold uppercase tracking-widest bg-slate-100 px-3 py-1 rounded-full inline-block">
                 Student & Aspiring Professional
               </p>
@@ -65,7 +65,7 @@ export default function Hero() {
             <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 pt-8 border-t border-slate-100">
               <div className="space-y-1">
                 <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">A-Level</span>
-                <span className="block text-lg font-bold text-brand-blue">Maths & Biz</span>
+                <span className="block text-lg font-bold text-brand-blue">Maths, Biz & Bio</span>
               </div>
               <div className="space-y-1">
                 <span className="block text-[10px] font-bold text-slate-400 uppercase tracking-wider">Foundation</span>

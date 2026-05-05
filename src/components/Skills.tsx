@@ -5,8 +5,8 @@ import { NISHAN_DATA } from '../constants';
 export default function Skills() {
   return (
     <section id="skills" className="section-padding bg-brand-bg relative">
-      <div className="container-custom px-6">
-        <div className="flex flex-col lg:flex-row gap-16 items-start">
+      <div className="container-custom px-4 md:px-6">
+        <div className="flex flex-col lg:flex-row gap-10 lg:gap-16 items-start">
           <div className="w-full lg:w-1/3 lg:sticky lg:top-32">
             <motion.h2
               initial={{ opacity: 0, x: -20 }}
@@ -24,7 +24,7 @@ export default function Skills() {
             >
               Professional Skills
             </motion.h3>
-            <p className="text-slate-600 leading-relaxed font-medium mb-10 text-sm md:text-base">
+            <p className="text-slate-600 leading-relaxed font-medium mb-8 lg:mb-10 text-sm md:text-base">
               I have developed a wide range of interpersonal and technical skills through both high-level academics and practical work experience in pharmacy.
             </p>
             <div className="glass-card rounded-2xl p-6 bg-blue-50/30 border-blue-100 hidden lg:block">
@@ -42,7 +42,7 @@ export default function Skills() {
             viewport={{ once: true }}
             className="w-full lg:w-2/3"
           >
-            <div className="glass-card rounded-[2rem] p-6 md:p-12">
+            <div className="glass-card rounded-[1.5rem] md:rounded-[2rem] p-6 md:p-12">
               <h4 className="text-[10px] font-bold text-slate-400 uppercase tracking-widest mb-8">Skillsets & Expertise</h4>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
                 {(NISHAN_DATA as any).skillsDetailed.map((skill: any, index: number) => (
