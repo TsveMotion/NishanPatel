@@ -16,7 +16,7 @@ export default function Hero() {
             <div className="relative">
               <div className="w-40 h-40 rounded-full border-4 border-white shadow-xl overflow-hidden flex items-center justify-center">
                 <img
-                  src="/input_file_0.png"
+                  src="/profile.jpg"
                   alt="Nishan Patel"
                   className="w-full h-full object-cover"
                   referrerPolicy="no-referrer"
