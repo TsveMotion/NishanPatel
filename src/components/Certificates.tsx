@@ -5,17 +5,17 @@ import { NISHAN_DATA } from '../constants';
 export default function Certificates() {
   return (
     <section id="achievements" className="section-padding bg-slate-900 text-white relative overflow-hidden">
-      <div className="absolute top-0 right-0 p-12 opacity-10 font-black text-8xl pointer-events-none select-none">
+      <div className="absolute top-0 right-0 p-8 md:p-12 opacity-10 font-black text-6xl md:text-8xl pointer-events-none select-none">
         ACHIEVEMENTS
       </div>
       
       <div className="container-custom px-6 relative z-10">
-        <div className="mb-16">
+        <div className="mb-12 md:mb-16">
           <motion.h2
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-4"
+            className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-slate-400 mb-4"
           >
             Recognition & Volunteering
           </motion.h2>
@@ -23,7 +23,7 @@ export default function Certificates() {
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            className="text-4xl md:text-5xl font-bold"
+            className="text-3xl md:text-5xl font-bold"
           >
             Certificates & <span className="text-brand-blue">Community</span>
           </motion.h3>

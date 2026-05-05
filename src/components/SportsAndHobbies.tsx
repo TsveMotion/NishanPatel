@@ -34,16 +34,16 @@ export default function SportsAndHobbies() {
 
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
           <div className="lg:col-span-5 space-y-6">
-            <p className="text-xl text-slate-600 leading-relaxed">
+            <p className="text-lg md:text-xl text-slate-600 leading-relaxed text-center lg:text-left">
               {NISHAN_DATA.sportsAndHobbies.content}
             </p>
-            <div className="p-6 rounded-2xl bg-orange-50 border border-orange-100 flex items-center gap-4">
-              <div className="w-12 h-12 rounded-xl bg-orange-600 flex items-center justify-center text-white">
-                 <Trophy size={24} />
+            <div className="p-5 md:p-6 rounded-2xl bg-orange-50 border border-orange-100 flex items-center gap-4 max-w-sm mx-auto lg:mx-0">
+              <div className="w-10 h-10 md:w-12 md:h-12 rounded-xl bg-orange-600 flex items-center justify-center text-white flex-shrink-0">
+                 <Trophy size={20} />
               </div>
               <div>
-                <h4 className="font-bold text-brand-orange">Award Winner</h4>
-                <p className="text-xs font-bold text-slate-500 uppercase tracking-tight">Coaches' Player of the Season</p>
+                <h4 className="font-bold text-brand-orange text-sm md:text-base">Award Winner</h4>
+                <p className="text-[10px] font-bold text-slate-500 uppercase tracking-tight">Coaches' Player of the Season</p>
               </div>
             </div>
           </div>

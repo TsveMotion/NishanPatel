@@ -1,5 +1,5 @@
 import { motion } from 'motion/react';
-import { Send, Mail, Phone, MapPin } from 'lucide-react';
+import { Send, Mail, MapPin } from 'lucide-react';
 import React, { useState } from 'react';
 
 export default function Contact() {
@@ -19,7 +19,7 @@ export default function Contact() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="text-xs font-bold uppercase tracking-[0.2em] text-brand-blue mb-4"
+              className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-brand-blue mb-4"
             >
               Get in Touch
             </motion.h2>
@@ -27,11 +27,11 @@ export default function Contact() {
               initial={{ opacity: 0, x: -20 }}
               whileInView={{ opacity: 1, x: 0 }}
               viewport={{ once: true }}
-              className="text-4xl font-bold text-brand-blue-900 mb-8"
+              className="text-3xl md:text-4xl font-bold text-brand-blue-900 mb-6 md:mb-8"
             >
               Contact Me
             </motion.h3>
-            <p className="text-slate-600 font-medium mb-10">
+            <p className="text-slate-600 font-medium mb-10 text-sm md:text-base">
               I'm always open to discussing work experience opportunities or potential projects. Feel free to reach out using the form or my direct contact details.
             </p>
             
@@ -40,13 +40,7 @@ export default function Contact() {
                 <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center text-brand-blue">
                    <Mail size={20} />
                 </div>
-                <span className="text-sm font-bold text-slate-700">nishan.patel@example.com</span>
-              </div>
-              <div className="flex items-center gap-4">
-                <div className="w-10 h-10 rounded-lg bg-blue-50 flex items-center justify-center text-brand-blue">
-                   <Phone size={20} />
-                </div>
-                <span className="text-sm font-bold text-slate-700">07xxx xxxxxx</span>
+                <span className="text-sm font-bold text-slate-700">nishanpatel761@gmail.com</span>
               </div>
             </div>
           </div>

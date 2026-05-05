@@ -66,7 +66,6 @@ export const NISHAN_DATA = {
   volunteering: "Nishan volunteered as a Wellbeing Ambassador at school, supporting peers, encouraging a positive environment, and developing empathy and problem-solving skills.",
   contact: {
     email: "nishanpatel761@gmail.com",
-    location: "Birmingham, UK",
-    phone: "07xxx xxxxxx"
+    location: "Birmingham, UK"
   }
 };

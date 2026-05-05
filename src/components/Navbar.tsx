@@ -91,17 +91,17 @@ export default function Navbar() {
       {/* Mobile Menu */}
       {isOpen && (
         <motion.div
-          initial={{ opacity: 0, height: 0 }}
-          animate={{ opacity: 1, height: 'auto' }}
-          className="md:hidden bg-white border-t border-gray-100 px-6 py-8"
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          className="md:hidden absolute top-full left-0 right-0 bg-white border-b border-brand-border px-6 py-10 shadow-2xl"
         >
-          <div className="flex flex-col gap-6">
+          <div className="flex flex-col gap-6 items-center">
             {navLinks.map((link) => (
               <a
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="text-xl font-display font-medium text-gray-800 hover:text-brand-blue"
+                className="text-lg font-bold text-slate-600 hover:text-brand-blue uppercase tracking-widest transition-colors"
               >
                 {link.name}
               </a>
@@ -109,7 +109,7 @@ export default function Navbar() {
             <a
               href="#contact"
               onClick={() => setIsOpen(false)}
-              className="bg-brand-blue text-white px-6 py-3 rounded-xl text-center font-medium"
+              className="w-full bg-brand-blue text-white py-4 rounded-xl text-center font-bold text-sm shadow-xl"
             >
               Contact Me
             </a>

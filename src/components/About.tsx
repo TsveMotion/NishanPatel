@@ -9,15 +9,15 @@ export default function About() {
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          className="glass-card rounded-[2.5rem] p-8 md:p-12 accent-border"
+          className="glass-card rounded-[2rem] md:rounded-[2.5rem] p-6 md:p-12 accent-border"
         >
-          <div className="flex flex-col lg:flex-row gap-12 items-center">
+          <div className="flex flex-col lg:flex-row gap-12 items-start">
             <div className="w-full lg:w-2/3">
-              <h2 className="text-xs font-bold uppercase tracking-[0.2em] text-brand-blue mb-4">About Nishan</h2>
-              <h3 className="text-3xl md:text-4xl font-bold text-brand-blue-900 mb-8 leading-tight">
+              <h2 className="text-[10px] md:text-xs font-bold uppercase tracking-[0.2em] text-brand-blue mb-4">About Nishan</h2>
+              <h3 className="text-2xl md:text-4xl font-bold text-brand-blue-900 mb-6 md:mb-8 leading-tight">
                 A dependable and enthusiastic student looking to grow.
               </h3>
-              <div className="text-slate-600 leading-relaxed text-lg mb-8 space-y-4">
+              <div className="text-slate-600 leading-relaxed text-base md:text-lg mb-8 space-y-4">
                 {NISHAN_DATA.about.split('\n\n').map((para, i) => (
                   <p key={i}>{para}</p>
                 ))}
@@ -25,14 +25,14 @@ export default function About() {
 
               {(NISHAN_DATA as any).additionalInfo && (
                 <div className="mt-8 pt-8 border-t border-slate-100">
-                  <h4 className="text-sm font-bold text-brand-blue uppercase tracking-widest mb-4">Speech & Drama</h4>
-                  <p className="text-slate-600 text-base leading-relaxed italic">
+                  <h4 className="text-xs font-bold text-brand-blue uppercase tracking-widest mb-4">Speech & Drama</h4>
+                  <p className="text-slate-600 text-sm md:text-base leading-relaxed italic">
                     {(NISHAN_DATA as any).additionalInfo}
                   </p>
                 </div>
               )}
               
-              <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 pt-8 border-t border-slate-100">
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-6 pt-8 border-t border-slate-100">
                 <div className="space-y-1">
                   <div className="text-3xl font-black text-brand-blue">800+</div>
                   <div className="text-[10px] font-bold uppercase tracking-wider text-slate-400">Positive Behavior Points</div>
