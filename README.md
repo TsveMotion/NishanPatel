@@ -1,20 +1,21 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Nishan Patel
 
-# Run and deploy your AI Studio app
+> Personal website for Nishan Patel — built by TsvWeb.
 
-This contains everything you need to run your app locally.
+![Next.js](https://img.shields.io/badge/Next.js-black?style=flat-square&logo=next.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white)
 
-View your app in AI Studio: https://ai.studio/apps/16520f98-4298-490b-bf76-ad54dee1f039
+## What is this?
 
-## Run Locally
+A personal website and portfolio for Nishan Patel, designed and built by TsvWeb.
 
-**Prerequisites:**  Node.js
+## Tech Stack
 
+- **Next.js** — React framework
+- **TypeScript** — type safety
+- **Tailwind CSS** — styling
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+---
+
+<p align="center">Built by <a href="https://tsvweb.com"><strong>TsvWeb</strong></a> · Birmingham, UK 🇬🇧</p>
